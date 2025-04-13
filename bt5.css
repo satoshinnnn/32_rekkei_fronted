@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+}
+h2 {
+    text-align: center;
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    margin:auto;
+    padding: 10px 20px; 
+}
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+#delete-btn {
+    background-color: red;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+}
+#task {
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+#btn {
+    padding: 5px 8px;
+    background-color: green;
+    border-radius: 3px;
+    color: white;
+}
